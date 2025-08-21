@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(beautiful-sky-full-stars-trona-ca.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.container h1 {
+    position: absolute;
+    top: 30px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .output {
+    width: 100%;
+    max-width: 700px;
+    /* min-height: 200px; */
+    padding: 60px 20px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: poppins, sans-serif;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 1.1px;
+    background-color: #20202033;
+    backdrop-filter: blur(10px);
+}
+
+.container button {
+    padding: 10px 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
